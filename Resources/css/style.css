@@ -229,28 +229,6 @@ a:active {
   color: #fff;
 }
 
-/* ----------------------------------------------- */
-/*                  TEAM SPACE SECTION             */
-/* ----------------------------------------------- */
-
-.box img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 15px;
-}
-
-.city-feature {
-    margin-bottom: 5px;
-}
-
-.section-cities {
-  margin-top: 100px;
-}
-
-.col img {
-  height: 180px;
-
-}
 
 /* ----------------------------------------------- */
 /*                  COMPANY SECTIONS               */
@@ -266,9 +244,14 @@ a:active {
 .company-img {
   margin: 80px 0 0 80px;
   display: inline-block;
+
 }
 .desk-img {
   border-radius: 20px;
+
+  width: 100%;
+  height: auto;
+
 }
 
 .company-text-box {
@@ -384,14 +367,16 @@ clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
 }
 .container3 h1{
   font-size: 2rem;
-padding: 50px;
+padding: 30px;
 }
 .container3 p {
-  padding: 0 0 0 50px;
+  font-size: 0.8em;
+  padding: 0 0 0 30px;
 }
 .half-text-content a{
-  padding-left: 50px;
+  padding-left: 30px;
 }
+
 /* ----------------------------------------------- */
 /*                  FOOTER                         */
 /* ----------------------------------------------- */
