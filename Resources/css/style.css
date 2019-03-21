@@ -130,8 +130,6 @@ a:active {
 .main-nav li a:active {
   border-bottom: 2px solid #000;
 }
-
-
 /* ----------------------------------------------- */
 /*              MOBILE NAVIGATION                  */
 /* ----------------------------------------------- */
@@ -481,10 +479,6 @@ div.diagonal-text-content {
   transition: border-bottom 0.2s;
 }
 
-.lct-links li a:hover,
-.lct-links li a:active {
-  color: #0096e9;
-}
 
 
 .img-half2-usa  {
@@ -511,6 +505,14 @@ div.diagonal-text-content {
 }
 .half-text-content h2 {
   text-align: justify;
+}
+.location-nav a {
+  color: #000;
+  font-weight: 900;
+}
+.location-nav a:hover,
+.location-nav a:active {
+  color: #0096e9;
 }
 /*-------------------------------------------------*/
 /*                  CONTACT US                     */
