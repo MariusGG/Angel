@@ -520,8 +520,7 @@ div.diagonal-text-content {
 #contact-us {
   background-color: #000;
   color: #fff;
-  padding: 50px 0;
-  margin-top: 50px;
+  padding: 100px 0;
 }
 
 .contact-form {
@@ -554,6 +553,14 @@ input.we-btn {
   width: 200px;
 }
 
+input #news {
+  background-color: green;
+}
+
+.privacey-policy p {
+  font-size: 60%;
+  text-align: center;
+}
 /* ----------------------------------------------- */
 /*                  FOOTER                         */
 /* ----------------------------------------------- */
