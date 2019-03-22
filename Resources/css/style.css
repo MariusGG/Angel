@@ -234,18 +234,16 @@ a:active {
   right: 0;
   margin-right: 30px;
 }
-
 .title-text-box {
-  position: absolute;
-  background-color: #0000009c;
-  padding: 50px;
-  margin-left: 250px;
-  margin-top: 110px;
-
-  float:left;
-  width:60%;
-  text-align:center;
-
+  left:50%;
+     top:50%;
+     -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+     position:absolute;
+      background-color: #0000009c;
+      padding: 30px;
+      text-align: center;   
 }
 
 div.title-text-box {
@@ -285,6 +283,11 @@ height: 100%
 
 #company-space p {
   color: #000;
+}
+.company-container {
+  margin: auto;
+ width: 80%;
+ padding: 10px;
 }
 
 .company-img {
@@ -555,7 +558,7 @@ h2.lct-tittle{
 #contact-us {
   background-color: #000;
   color: #fff;
-  padding: 100px 0;
+  padding: 50px 0;
 }
 .contact-us-tittle p {
   text-align: center;
@@ -606,11 +609,6 @@ input #news {
 #contact-us div.col.span-2-of-2 {
   width: 50%;
 }
-/*------------------------------------------------*/
-/*              radio input                       */
-/*------------------------------------------------*/
-
-
 
 /* ----------------------------------------------- */
 /*                  FOOTER                         */
@@ -626,7 +624,9 @@ footer {
   list-style: none;
   float: left;
 }
-
+.lower-links {
+  margin-left: 200px;
+}
 .social-links {
   list-style: none;
   float: right;
@@ -695,7 +695,12 @@ footer p {
   text-align: center;
   margin-top: 20px;
 }
-
+footer .col.span-1-of-2 {
+    width: 75%;
+}
+footer .col.span-2-of-2 {
+    width: 20%;
+}
 
 
 
