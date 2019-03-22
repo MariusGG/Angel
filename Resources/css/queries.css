@@ -159,6 +159,18 @@ div.diagonal-text-content {
 .lower-links {
     margin-left: 10px;
 }
+  .footer-nav {
+    float: none;
+    margin: auto;
+    width: 30%;
+    margin-bottom: 10px;
+}
+.lower-links {
+    margin-left: 0px;
+}
+footer {
+  padding: 20px;
+}
 footer .col.span-2-of-2 {
   width: 65%;
 }
