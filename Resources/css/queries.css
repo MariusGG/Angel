@@ -18,6 +18,9 @@
     #contact-us {
     padding: 30px 0;
 }
+.center-btn {
+    width: 18%;
+}
 .bnnr-drop {
     margin-bottom: 50px;
 }
@@ -27,19 +30,67 @@
 section.row.embedded-content {
     margin-top: 50px;
 }
+.center-btn{
+  margin: auto;
+  width: 19%;
+}
 
 }
 @media only screen and (max-width: 767px) {
-    body { font-size: 1em; }
-    section { padding: 30px 0; }
 
+    body { font-size: 0.6em;
+    }
+    .arrow {
+      position: absolute;
+    }
+    section#banner{
+      position: relative;
+    }
+    div.company-text-box  {
+    position: inherit;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+.company-img {
+    margin: 30px;
+    display: block;
+}
+.lct-links,
+.container-4-1 {
+    width: 80%;
+
+}
+#contact-us div.col.span-1-of-2 {
+      margin-right: 10px;
+}
+    .center-btn2 {
+    width: 35%;
+}
+input[type=text], input[type=email], select, textarea {
+
+    margin: 1px 0;
+}
+.container4-2 {
+  height: 200px;
+}
+#contact-us .we-btn {
+  margin-bottom: 10px
+}
+div.half-text-content {
+    margin: 10px 0 10px 0;
+}
+
+button.we-btn {
+      margin: 5px 0 10px 0;
+}
     .row,
     .tittle-text-box { padding: 0 4%; }
     .col {
         width: 100%;
         margin: 0 0 4% 0;
     }
-
 
     .main-nav { display: none; }
     .mobile-nav-icon {display: inline-block;}
@@ -69,10 +120,8 @@ section.row.embedded-content {
     .sticky .mobile-nav-icon { margin-top: 10px; }
     .sticky .mobile-nav-icon i { color: #555; }
 
-    .sticky .logo {
-      margin: 10px;
-    }
 
+/*
     h1 { font-size: 180%; }
     h2 { font-size: 150%; }
     .title-text-box h1 {
@@ -86,9 +135,8 @@ section.row.embedded-content {
       margin: 12  0px;
       width: 380px;
       padding: 15px
-    }
-
-}
+    } */
+  }
 
 @media only screen and (max-width: 480px) {
     section { padding: 25px 0; }

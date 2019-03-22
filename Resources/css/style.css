@@ -100,7 +100,7 @@ a:active {
 /* ----------------------------------------------- */
 /*              MAIN NAVIGATION                    */
 /* ----------------------------------------------- */
-.nav-container {
+ .nav-container {
   margin-bottom: 30px;
 }
 .main-nav {
@@ -144,6 +144,8 @@ a:active {
   font-size: 200%;
   color: #000;
 }
+
+
 
 /* ----------------------------------------------- */
 /*              STICKY NAVIGATION                  */
@@ -243,7 +245,7 @@ a:active {
      position:absolute;
       background-color: #0000009c;
       padding: 30px;
-      text-align: center;   
+      text-align: center;
 }
 
 div.title-text-box {
@@ -529,9 +531,10 @@ h2.lct-tittle{
   clip-path: polygon(0% 0%, 90% 0%, 90% 100%, 0% 100%);
 }
 
-.center-btn{
-  margin: 0 auto;
-  width: 280px;
+
+.center-btn {
+    margin: auto;
+    width: 11%;
 }
 .half-text-content h2 {
   text-align: justify;
@@ -608,6 +611,10 @@ input #news {
 }
 #contact-us div.col.span-2-of-2 {
   width: 50%;
+}
+.center-btn2 {
+    margin: auto;
+    width: 26%;
 }
 
 /* ----------------------------------------------- */
