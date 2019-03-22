@@ -74,7 +74,7 @@ input[type=text], input[type=email], select, textarea {
     margin: 1px 0;
 }
 .container4-2 {
-  height: 200px;
+  height: 300px;
 }
 #contact-us .we-btn {
   margin-bottom: 10px
@@ -128,14 +128,32 @@ button.we-btn {
   }
   @media only screen and (max-width: 480px) {
   body {
-    background-color: orange;
+
   }
+  .title-text-box {
+    padding: 10px;
+  }
+  .lct-links {
+    margin-bottom: 20px;
+  }
+  .container4-2 {
+    height: 300px;
+}
   .center-btn2 {
-    width: 55%;
+    width: 75%;
 }
 .center-btn {
   margin: auto;
   width: 25%;
+}
+div.diagonal-text-content {
+    padding: 10px 0 0 10px;
+}
+.lct-links, .container-4-1 {
+    width: 90%;
+}
+#banner2 button.we-btn {
+  width: 130px;
 }
 
 .lower-links {
