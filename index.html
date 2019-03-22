@@ -75,6 +75,9 @@
       </section>
 
       <section class="row embedded-content">
+        <div class="row video-title">
+          <h2>Life at WeWork</h2>
+        </div>
         <div class="embedded-vid">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/Tj25cD9m-zQ"
           frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -178,8 +181,10 @@
                     <div class="half-text-content">
                       <h2>222 Pacific Coast Hwy</h2>
                       <p>222 Pacific Coast Highway El Segundo CA 90245</p>
-                      <p><span>Private Office</span>$820/mo</p>
-                      <p><span>Hot Desk</span>$390/mo</p>
+                      <div class="location-prices">
+                        <span>Private Office</span><p>$820/mo</p>
+                        <span>Hot Desk</span><p>$390/mo</p>
+                      </div>
                       <a href="#">Explore this location</a>
                     </div>
                   </div>
@@ -197,9 +202,11 @@
                     <div class="half-text-content">
                       <h2>1 St Katharine's Way</h2>
                       <p>1 St. Katharine's Way London E1W 1UN</p>
-                      <p><span>Private Office</span>£768/mo</p>
-                      <p><span>Dedicated Desk</span>£550/mo</p>
-                      <p><span>Hot Desk</span>£450/mo</p>
+                      <div class="location-prices">
+                        <span>Private Office</span><p>£768/mo</p>
+                        <span>Dedicated Desk</span><p>£550/mo</p>
+                        <span>Hot Desk</span><p>£450/mo</p><br>
+                      </div>
                       <a href="#">Explore this location</a>
                     </div>
                   </div>
@@ -217,7 +224,9 @@
                     <div class="half-text-content">
                       <h2>Jimbocho</h2>
                       <p>2-11-15 Kanda Jimbocho Chiyoda-ku Tokyo</p>
-                      <p><span>Hot Desk</span>¥67,000/mo</p>
+                      <div class="location-prices">
+                        <span>Hot Desk</span><p>¥67,000/mo</p>
+                      </div>
                       <a href="#">Explore this location</a>
                     </div>
                   </div>
@@ -235,9 +244,11 @@
                     <div class="half-text-content">
                       <h2>161 Castlereagh St</h2>
                       <p>161 Castlereagh Street Sydney NSW 2000</p>
-                      <p><span>Private Office</span>A$2,380/mo</p>
-                      <p><span>Dedicated Desk</span>A$950/mo</p>
-                      <p><span>Hot Desk</span>A$550/mo</p>
+                      <div class="location-prices">
+                      <span>Private Office</span><p>A$2,380/mo</p>
+                      <span>Dedicated Desk</span><p>A$950/mo</p>
+                      <span>Hot Desk</span><p>A$550/mo</p>
+                      </div>
                       <a href="#">Explore this location</a>
                     </div>
                   </div>
@@ -260,34 +271,34 @@
               <div class="row">
                 <form method="post" action="#" class="contact-form">
                   <div class="row">
-                    <div class="col span-1-of-3">
+                    <div class="col span-1-of-2">
                       <p>Full name:</p>
                       <input type="text" name="name" id="name" placeholder="Your full name" required>
                     </div>
-                    <div class="col span-2-of-3">
+                    <div class="col span-2-of-2">
                       <p>Company name:</p>
                       <input type="text" name="name" id="name" placeholder="Company interested in space" required>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col span-1-of-3">
+                    <div class="col span-1-of-2">
                       <p>Email address:</p>
                       <input type="text" name="name" id="name" placeholder="Best email to contact you" required>
                     </div>
-                    <div class="col span-2-of-3">
+                    <div class="col span-2-of-2">
                       <p>Phone number:</p>
                       <input type="email" name="email" id="email" placeholder="Best number to contact you" required>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col span-1-of-3">
+                    <div class="col span-1-of-2">
                       <p>I'm interested in:</p>
                       <br>
                       <input type="checkbox" name="news" id="news" checked> Finding workspace <br>
                       <input type="checkbox" name="news" id="news" > Talking about my membership <br>
                       <input type="checkbox" name="news" id="news" > Something else
                     </div>
-                    <div class="col span-2-of-3">
+                    <div class="col span-2-of-2">
                       <p>Notes:</p>
                       <textarea name="message" placeholder="Optional"></textarea>
                     </div>

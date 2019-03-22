@@ -255,6 +255,13 @@ div.title-text-box {
 /* ----------------------------------------------- */
 /*                 EMBEDDED VIDEO                  */
 /* ----------------------------------------------- */
+section.row.embedded-content {
+  margin-top: 100px;
+}
+.video-title h2{
+  color: #000;
+  margin-bottom: 30px;
+}
 .embedded-vid {
   position: relative;
   width: 100%;
@@ -267,7 +274,7 @@ width: 100%;
 height: 100%
 }
 .embedded-content {
-  max-width: 500px;
+  max-width: 600px;
 }
 /* ----------------------------------------------- */
 /*                  COMPANY SECTIONS               */
@@ -300,11 +307,11 @@ height: 100%
   bottom: 100px;
 }
 
-.company-text-box h1 {
+.company-text-box h2 {
   color: #000;
 }
 
-.company-text-box  h1, p {
+.company-text-box  h2, p {
   margin-bottom: 10px;
 }
 
@@ -430,7 +437,7 @@ div.diagonal-text-content {
   color: #fff;
 }
 .half-text-content p,
-.half-text-content h1{
+.half-text-content h2{
   color: #000;
 }
 
@@ -472,6 +479,9 @@ div.diagonal-text-content {
   overflow: hidden;
   height: 360px;
 }
+h2.lct-tittle{
+  color: #000;
+}
 .lct-links {
   position: relative;
   width: 60%;
@@ -487,18 +497,16 @@ div.diagonal-text-content {
   display: inline-block;
   margin-left: 100px;
 }
-.lct-links li a:link,
-.lct-links li a:visited {
-  padding: 8px 0;
-  color: #000;
-  text-decoration: none;
-  font-size: 80%;
-  font-weight: 900;
-  -webkit-transition: border-bottom 0.2s;
-  transition: border-bottom 0.2s;
-}
-
-
+  .lct-links li a:link,
+  .lct-links li a:visited {
+    padding: 8px 0;
+    color: #000;
+    text-decoration: none;
+    font-size: 80%;
+    font-weight: 900;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+  }
 
 .img-half2-usa  {
   background-image: url('img/river-north-coworking-3_edit.jpg');
@@ -533,6 +541,14 @@ div.diagonal-text-content {
 .location-nav a:active {
   color: #0096e9;
 }
+
+#locations span {
+  font-weight: 900;
+  display: inline-block;
+  /* padding-bottom: 10px; */
+
+}
+
 /*-------------------------------------------------*/
 /*                  CONTACT US                     */
 /*-------------------------------------------------*/
@@ -556,7 +572,7 @@ input[type=email],
 select,
 textarea {
   width: 100%;
-  padding: 7px;
+  padding: 10px;
   border-radius: 3px;
   border: 1px solid #ccc;
   margin: 20px 0;
@@ -584,7 +600,12 @@ input #news {
   font-size: 60%;
   text-align: center;
 }
-
+#contact-us div.col.span-1-of-2 {
+  width: 45%;
+}
+#contact-us div.col.span-2-of-2 {
+  width: 50%;
+}
 /*------------------------------------------------*/
 /*              radio input                       */
 /*------------------------------------------------*/
