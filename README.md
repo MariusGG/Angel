@@ -7,3 +7,6 @@ A a simplified version of the WeWork website with a structured psd file to follo
 *Tags: HTML5, CSS, Javascript, Dev tool*
 
 ## Installation 
+
+*Clone or Download this repo and cd into the directory* 
+* open ``index.html`` in your browser to view web app*
